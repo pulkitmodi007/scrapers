@@ -1,0 +1,29 @@
+
+##  to install requirements fill in virtualenv: 
+ & "D:\path\to\virtualenv\try\Scripts\python.exe" -m pip install -r "D:\path\to\requirements.txt"
+&- used in powersehell
+eg:  & "C:\Users\pulki\OneDrive\Desktop\virtualenv\try\Scripts\python.exe" -m pip install -r requirements.txt
+
+
+##  turn on the  virtualenv:
+
+python -m venv /path/to/new/virtual/environment
+
+
+cd "C:\Users\pulki\OneDrive\Desktop\virtualenv"
+how  to activate
+\try\Scripts\activate
+
+
+import time
+import os
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from webdriver_manager.chrome import ChromeDriverManager as CM
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+import requests
+
+
+
